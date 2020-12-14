@@ -1,0 +1,18 @@
+baseURL = "http://example.org/"
+languageCode = "fr-fr"
+title = "PgMetadata"
+
+theme = "reveal-hugo"
+relativeURLs = true
+uglyURLs = true
+
+[params.reveal_hugo]
+theme = "moon"
+history = true
+slide_number = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
